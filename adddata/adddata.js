@@ -5,7 +5,7 @@ const addData = (argOne,argTwo) =>{
     const notes = readFile()
     const isDuplicate = notes.find(data=> data.name === argOne)
     const requiredData = notes.find(data=>data.name===argOne)
-    console.log("requiredData=>",typeof requiredData,requiredData)
+    console.log("requiredData ==>",typeof requiredData,requiredData)
 
     debugger
     

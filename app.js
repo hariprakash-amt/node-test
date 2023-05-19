@@ -17,6 +17,7 @@ let argTwo = process.argv[4]
 
 if(command==="add"){
     addFile.addData(argOne,argTwo)
+    console.log("object");
 }
 
 if(command == "remove"){
